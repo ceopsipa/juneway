@@ -28,7 +28,7 @@ bash-5.0#
 ```sh
 ldd heraks/bin/cp
 cp /lib/x86_64-linux-gnu/libselinux.so.1 heraks/lib/x86_64-linux-gnu/
-cd /lib/x86_64-linux-gnu/libc.so.6 heraks/lib/x86_64-linux-gnu/
+cp /lib/x86_64-linux-gnu/libc.so.6 heraks/lib/x86_64-linux-gnu/
 cp /lib/x86_64-linux-gnu/libpcre.so.3 heraks/lib/x86_64-linux-gnu/
 cp /lib/x86_64-linux-gnu/libdl.so.2 heraks/lib/x86_64-linux-gnu/
 cp /lib64/ld-linux-x86-64.so.2 heraks/lib64/
